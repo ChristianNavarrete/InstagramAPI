@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8511906C19F76A6800B03DF2 /* ABVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8511906A19F76A6800B03DF2 /* ABVideoViewController.m */; };
+		8511906D19F76A6800B03DF2 /* ABVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8511906B19F76A6800B03DF2 /* ABVideoViewController.xib */; };
+		8511906F19F76A9D00B03DF2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8511906E19F76A9D00B03DF2 /* AVFoundation.framework */; };
+		8511907119F81FE800B03DF2 /* vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8511907019F77BF200B03DF2 /* vid.mp4 */; };
+		8511907619F829B000B03DF2 /* jeremy.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8511907519F829B000B03DF2 /* jeremy.mov */; };
+		856CD99819ECA1DE00C48C58 /* ABPresentDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 856CD99719ECA1DE00C48C58 /* ABPresentDetailTransition.m */; };
+		856CD99B19ECC3D100C48C58 /* ABPhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856CD99A19ECC3D100C48C58 /* ABPhotoController.m */; };
+		856CD99E19ECDE8C00C48C58 /* ABDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 856CD99D19ECDE8C00C48C58 /* ABDetailViewController.m */; };
+		856CD9A119ECF91000C48C58 /* ABDismissDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 856CD9A019ECF91000C48C58 /* ABDismissDetailTransition.m */; };
 		85CE377519E5BA5F0044E5EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CE377419E5BA5F0044E5EC /* Foundation.framework */; };
 		85CE377719E5BA5F0044E5EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CE377619E5BA5F0044E5EC /* CoreGraphics.framework */; };
 		85CE377919E5BA5F0044E5EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CE377819E5BA5F0044E5EC /* UIKit.framework */; };
@@ -19,6 +28,10 @@
 		85CE379019E5BA610044E5EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CE377819E5BA5F0044E5EC /* UIKit.framework */; };
 		85CE379819E5BA620044E5EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85CE379619E5BA620044E5EC /* InfoPlist.strings */; };
 		85CE379A19E5BA620044E5EC /* Jeremy_FootageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CE379919E5BA620044E5EC /* Jeremy_FootageTests.m */; };
+		85CE37A519E5BB460044E5EC /* ABCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CE37A419E5BB460044E5EC /* ABCollectionViewController.m */; };
+		85CE37A819E64FA30044E5EC /* ABPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85CE37A719E64FA30044E5EC /* ABPhotoCell.m */; };
+		85CE37AA19E651E80044E5EC /* daaaaaaaamn.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 85CE37A919E651E80044E5EC /* daaaaaaaamn.PNG */; };
+		AB6D0DB5037E4C1D3890B735 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFE1C35A6E96621AF171B86 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		731BB2FB690DD9393C87F5C6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8511906919F76A6800B03DF2 /* ABVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABVideoViewController.h; path = ../ABVideoViewController.h; sourceTree = "<group>"; };
+		8511906A19F76A6800B03DF2 /* ABVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABVideoViewController.m; path = ../ABVideoViewController.m; sourceTree = "<group>"; };
+		8511906B19F76A6800B03DF2 /* ABVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ABVideoViewController.xib; path = ../ABVideoViewController.xib; sourceTree = "<group>"; };
+		8511906E19F76A9D00B03DF2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8511907019F77BF200B03DF2 /* vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = vid.mp4; path = ../vid.mp4; sourceTree = "<group>"; };
+		8511907519F829B000B03DF2 /* jeremy.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = jeremy.mov; sourceTree = "<group>"; };
+		856CD99619ECA1DE00C48C58 /* ABPresentDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABPresentDetailTransition.h; path = ../ABPresentDetailTransition.h; sourceTree = "<group>"; };
+		856CD99719ECA1DE00C48C58 /* ABPresentDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABPresentDetailTransition.m; path = ../ABPresentDetailTransition.m; sourceTree = "<group>"; };
+		856CD99919ECC3D100C48C58 /* ABPhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABPhotoController.h; path = ../ABPhotoController.h; sourceTree = "<group>"; };
+		856CD99A19ECC3D100C48C58 /* ABPhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABPhotoController.m; path = ../ABPhotoController.m; sourceTree = "<group>"; };
+		856CD99C19ECDE8C00C48C58 /* ABDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABDetailViewController.h; path = ../ABDetailViewController.h; sourceTree = "<group>"; };
+		856CD99D19ECDE8C00C48C58 /* ABDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABDetailViewController.m; path = ../ABDetailViewController.m; sourceTree = "<group>"; };
+		856CD99F19ECF91000C48C58 /* ABDismissDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABDismissDetailTransition.h; path = ../ABDismissDetailTransition.h; sourceTree = "<group>"; };
+		856CD9A019ECF91000C48C58 /* ABDismissDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABDismissDetailTransition.m; path = ../ABDismissDetailTransition.m; sourceTree = "<group>"; };
 		85CE377119E5BA5F0044E5EC /* Jeremy Footage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jeremy Footage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CE377419E5BA5F0044E5EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		85CE377619E5BA5F0044E5EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +76,14 @@
 		85CE379519E5BA620044E5EC /* Jeremy FootageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jeremy FootageTests-Info.plist"; sourceTree = "<group>"; };
 		85CE379719E5BA620044E5EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		85CE379919E5BA620044E5EC /* Jeremy_FootageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jeremy_FootageTests.m; sourceTree = "<group>"; };
+		85CE37A319E5BB460044E5EC /* ABCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABCollectionViewController.h; path = ../ABCollectionViewController.h; sourceTree = "<group>"; };
+		85CE37A419E5BB460044E5EC /* ABCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABCollectionViewController.m; path = ../ABCollectionViewController.m; sourceTree = "<group>"; };
+		85CE37A619E64FA30044E5EC /* ABPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABPhotoCell.h; path = ../ABPhotoCell.h; sourceTree = "<group>"; };
+		85CE37A719E64FA30044E5EC /* ABPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABPhotoCell.m; path = ../ABPhotoCell.m; sourceTree = "<group>"; };
+		85CE37A919E651E80044E5EC /* daaaaaaaamn.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daaaaaaaamn.PNG; sourceTree = "<group>"; };
+		85CE37AD19E6F2820044E5EC /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E8FAF195CCD63C1DE791A4E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CDFE1C35A6E96621AF171B86 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8511906F19F76A9D00B03DF2 /* AVFoundation.framework in Frameworks */,
 				85CE377719E5BA5F0044E5EC /* CoreGraphics.framework in Frameworks */,
 				85CE377919E5BA5F0044E5EC /* UIKit.framework in Frameworks */,
 				85CE377519E5BA5F0044E5EC /* Foundation.framework in Frameworks */,
+				AB6D0DB5037E4C1D3890B735 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +112,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		819E97C0BD743F4CE7B2508F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				731BB2FB690DD9393C87F5C6 /* Pods.debug.xcconfig */,
+				9E8FAF195CCD63C1DE791A4E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		85CE376819E5BA5F0044E5EC = {
 			isa = PBXGroup;
 			children = (
+				85CE37AD19E6F2820044E5EC /* Podfile */,
 				85CE377A19E5BA5F0044E5EC /* Jeremy Footage */,
 				85CE379319E5BA610044E5EC /* Jeremy FootageTests */,
 				85CE377319E5BA5F0044E5EC /* Frameworks */,
 				85CE377219E5BA5F0044E5EC /* Products */,
+				819E97C0BD743F4CE7B2508F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +145,12 @@
 		85CE377319E5BA5F0044E5EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8511906E19F76A9D00B03DF2 /* AVFoundation.framework */,
 				85CE377419E5BA5F0044E5EC /* Foundation.framework */,
 				85CE377619E5BA5F0044E5EC /* CoreGraphics.framework */,
 				85CE377819E5BA5F0044E5EC /* UIKit.framework */,
 				85CE378D19E5BA610044E5EC /* XCTest.framework */,
+				CDFE1C35A6E96621AF171B86 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +158,25 @@
 		85CE377A19E5BA5F0044E5EC /* Jeremy Footage */ = {
 			isa = PBXGroup;
 			children = (
+				8511907519F829B000B03DF2 /* jeremy.mov */,
 				85CE378319E5BA5F0044E5EC /* ABAppDelegate.h */,
 				85CE378419E5BA5F0044E5EC /* ABAppDelegate.m */,
+				8511906919F76A6800B03DF2 /* ABVideoViewController.h */,
+				8511906A19F76A6800B03DF2 /* ABVideoViewController.m */,
+				8511906B19F76A6800B03DF2 /* ABVideoViewController.xib */,
+				8511907019F77BF200B03DF2 /* vid.mp4 */,
+				85CE37A319E5BB460044E5EC /* ABCollectionViewController.h */,
+				85CE37A419E5BB460044E5EC /* ABCollectionViewController.m */,
+				85CE37A619E64FA30044E5EC /* ABPhotoCell.h */,
+				85CE37A719E64FA30044E5EC /* ABPhotoCell.m */,
+				856CD99919ECC3D100C48C58 /* ABPhotoController.h */,
+				856CD99A19ECC3D100C48C58 /* ABPhotoController.m */,
+				856CD99C19ECDE8C00C48C58 /* ABDetailViewController.h */,
+				856CD99D19ECDE8C00C48C58 /* ABDetailViewController.m */,
+				856CD99619ECA1DE00C48C58 /* ABPresentDetailTransition.h */,
+				856CD99719ECA1DE00C48C58 /* ABPresentDetailTransition.m */,
+				856CD99F19ECF91000C48C58 /* ABDismissDetailTransition.h */,
+				856CD9A019ECF91000C48C58 /* ABDismissDetailTransition.m */,
 				85CE378619E5BA5F0044E5EC /* Images.xcassets */,
 				85CE377B19E5BA5F0044E5EC /* Supporting Files */,
 			);
@@ -118,6 +186,7 @@
 		85CE377B19E5BA5F0044E5EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				85CE37A919E651E80044E5EC /* daaaaaaaamn.PNG */,
 				85CE377C19E5BA5F0044E5EC /* Jeremy Footage-Info.plist */,
 				85CE377D19E5BA5F0044E5EC /* InfoPlist.strings */,
 				85CE378019E5BA5F0044E5EC /* main.m */,
@@ -151,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85CE379D19E5BA620044E5EC /* Build configuration list for PBXNativeTarget "Jeremy Footage" */;
 			buildPhases = (
+				91A1ED87B51C0F24166900D5 /* Check Pods Manifest.lock */,
 				85CE376D19E5BA5F0044E5EC /* Sources */,
 				85CE376E19E5BA5F0044E5EC /* Frameworks */,
 				85CE376F19E5BA5F0044E5EC /* Resources */,
+				E4ADB47A81594456DC7E235E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +293,10 @@
 			files = (
 				85CE377F19E5BA5F0044E5EC /* InfoPlist.strings in Resources */,
 				85CE378719E5BA5F0044E5EC /* Images.xcassets in Resources */,
+				8511907619F829B000B03DF2 /* jeremy.mov in Resources */,
+				85CE37AA19E651E80044E5EC /* daaaaaaaamn.PNG in Resources */,
+				8511907119F81FE800B03DF2 /* vid.mp4 in Resources */,
+				8511906D19F76A6800B03DF2 /* ABVideoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,13 +310,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91A1ED87B51C0F24166900D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4ADB47A81594456DC7E235E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85CE376D19E5BA5F0044E5EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8511906C19F76A6800B03DF2 /* ABVideoViewController.m in Sources */,
+				85CE37A519E5BB460044E5EC /* ABCollectionViewController.m in Sources */,
+				85CE37A819E64FA30044E5EC /* ABPhotoCell.m in Sources */,
 				85CE378119E5BA5F0044E5EC /* main.m in Sources */,
+				856CD9A119ECF91000C48C58 /* ABDismissDetailTransition.m in Sources */,
+				856CD99B19ECC3D100C48C58 /* ABPhotoController.m in Sources */,
+				856CD99819ECA1DE00C48C58 /* ABPresentDetailTransition.m in Sources */,
 				85CE378519E5BA5F0044E5EC /* ABAppDelegate.m in Sources */,
+				856CD99E19ECDE8C00C48C58 /* ABDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +470,7 @@
 		};
 		85CE379E19E5BA620044E5EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731BB2FB690DD9393C87F5C6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -368,6 +484,7 @@
 		};
 		85CE379F19E5BA620044E5EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8FAF195CCD63C1DE791A4E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -438,6 +555,7 @@
 				85CE379F19E5BA620044E5EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85CE37A019E5BA620044E5EC /* Build configuration list for PBXNativeTarget "Jeremy FootageTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +564,7 @@
 				85CE37A219E5BA620044E5EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
